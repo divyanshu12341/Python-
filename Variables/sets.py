@@ -52,3 +52,9 @@ print(s1&s2)
 print(s1-s2) #Present in s1 but not in s2
 #symmetric difference -- All elements except common 
 print(s1^s2)
+
+s1.isdisjoint(s2) #true if no common elements 
+print(s1<=s2) #s1.issubset(s2) it tells whether s1 is subset of s2 or not 
+print(s1<s2) #Proper subset or not 
+print(s1>=s2) #s1.issuperset(s2)
+

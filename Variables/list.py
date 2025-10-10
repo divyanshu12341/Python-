@@ -36,3 +36,12 @@ print(l)
 # Range of indexes 
 del l[0:2]
 print(l)
+#Other than reversal,nothing will work if data types of all elements are not same 
+l = [10,40,20,50]
+print(max(l))
+print(min(l))
+print(sum(l))
+l.reverse()
+print(l)
+l.sort()
+print(l)
