@@ -1,0 +1,15 @@
+def printDetails(id,name='NA',price='NA'):
+    print("f id is ",id)
+    print("f name is ",name)
+    print("f price is ",price)
+    print(f"id is {id}")
+    print(f"name is {name}")
+    print(f"price is {price}")
+printDetails(101,'Divyanshu',1000)
+print("Second : ")
+printDetails(102)
+print("Third : ")
+printDetails(name="DivyanshuJ",id=104)
+#POSITIONAL AGRUMENTS 
+printDetails(id = 101,name = 'Divyanshu',price = 1000)
+printDetails(name = 'abc',id = 102,price = 1050)
