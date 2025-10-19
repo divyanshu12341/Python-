@@ -28,6 +28,7 @@ fun1()
 print("After fun1()")
 
 def sum():
+    # here x and y are local variables and when we create it again,new copy is created
     x=5
     y=10
     x = x+5

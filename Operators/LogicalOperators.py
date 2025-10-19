@@ -21,3 +21,4 @@ print(y or 20)
 
 z = 40 
 print(z and 50)
+

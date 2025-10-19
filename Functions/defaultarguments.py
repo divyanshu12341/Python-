@@ -12,4 +12,5 @@ print("Third : ")
 printDetails(name="DivyanshuJ",id=104)
 #POSITIONAL AGRUMENTS 
 printDetails(id = 101,name = 'Divyanshu',price = 1000)
+#KEYWORD ARGUMENTS 
 printDetails(name = 'abc',id = 102,price = 1050)

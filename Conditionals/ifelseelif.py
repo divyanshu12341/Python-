@@ -27,3 +27,4 @@ if(n<0):
         print("Negative even")
     else :
         print("Negative odd")
+    
